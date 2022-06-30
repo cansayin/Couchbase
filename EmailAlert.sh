@@ -30,7 +30,3 @@ fi
 cp -rp $log_file $oldlogfile 
  
  
-chmod 777 couchbase_db_alerts.sh
- 
-crontab -e 
-*/10 * * * * sh /home/couchbase/couchbase_db_alerts.sh > /home/couchbase/couchbase_db_alerts.txt
